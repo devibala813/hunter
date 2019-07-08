@@ -9,6 +9,3 @@ if(len(fp)==0):
    print("unique")
 ew=sorted(fp)
 print(' '.join(map(str,ew)))
-   
-   
-      

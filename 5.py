@@ -6,7 +6,7 @@ def count_ch(a1,b1):
       count[i]=0
       if(a1[i-1]>'0'):
          count[i]=count[i-1]
-      if(a1[i-1]=='1' or (a1[i-2]=='2' and a1[i-1]<'7')):
+      if(a1[i-2]=='1' or (a1[i-2]=='2' and a1[i-1]<'7')):
          count[i]+=count[i-2]
    return count[b1]
    

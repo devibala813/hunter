@@ -16,4 +16,4 @@ if s=='101':
    print(2)
    sys.exit()
 dvi=count_ch(a1,len(a1))
-print(a1)
+print(dvi)
